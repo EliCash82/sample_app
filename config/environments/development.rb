@@ -29,9 +29,13 @@ SampleApp::Application.configure do
   # with SQLite, MySQL, and PostgreSQL)
   config.active_record.auto_explain_threshold_in_seconds = 0.5
 
-  # Do not compress assets
+  # Do not compress assets // What will happen if I change this to true, probably nothing good.  2:19am
   config.assets.compress = false
 
   # Expands the lines which load the assets
   config.assets.debug = true
+
+  #added based on stack overflow suggestion -- this worked
+  #see discussion here http://stackoverflow.com/questions/8356251/rails-3-1-assets-strange-serving-in-development
+  config.serve_static_assets = false
 end
