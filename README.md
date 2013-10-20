@@ -1,6 +1,6 @@
 # The Gentle Introduction Resource
-# A "web app" created using Ruby on Rails
-# Project by Anderson Evans to satisfy requirements @ CUNY Grad Center
+* A "web app" created using Ruby on Rails *
+* Project by Anderson Evans to satisfy requirements @ CUNY Grad Center *
 
 This is an academic application created in part by/with great thanks to The Ruby on Rails Tutorial by Michael Hartl.  The purpose of this web application is twofold:
 
