@@ -1436,7 +1436,7 @@ table .span12 {
   width: 14px;
   height: 14px;
   vertical-align: text-top;
-  background-image: url(/assets/glyphicons-halflings.png);
+  background-image: url(/assets/glyphicons-halflings-0e7ff93d8f48fe1f5f762e4312e78da7.png);
   background-position: 14px 14px;
   background-repeat: no-repeat;
   *margin-right: .3em;
@@ -1448,7 +1448,7 @@ table .span12 {
 
 /* line 28, ../../../../.rvm/gems/ruby-1.9.3-p448@rails3tutorial2ndEd/gems/bootstrap-sass-2.0.0/vendor/assets/stylesheets/bootstrap/_sprites.scss */
 .icon-white {
-  background-image: url(/assets/glyphicons-halflings-white.png);
+  background-image: url(/assets/glyphicons-halflings-white-ef3d5b8d6a297804352b4a46fdb5466d.png);
 }
 
 /* line 32, ../../../../.rvm/gems/ruby-1.9.3-p448@rails3tutorial2ndEd/gems/bootstrap-sass-2.0.0/vendor/assets/stylesheets/bootstrap/_sprites.scss */
@@ -4595,38 +4595,4 @@ input, textarea, select, .uneditable-input {
 /* line 182, ../../app/assets/stylesheets/custom.css.scss */
 .users li:last-child {
   border-bottom: 1px solid #eeeeee;
-}
-
-/*microposts*/
-/* line 190, ../../app/assets/stylesheets/custom.css.scss */
-.microposts {
-  list-style: none;
-  margin: 10px 0 0 0;
-}
-/* line 194, ../../app/assets/stylesheets/custom.css.scss */
-.microposts li {
-  padding: 10px 0;
-  border-top: 1px solid #e8e8e8;
-}
-
-/* line 199, ../../app/assets/stylesheets/custom.css.scss */
-.content {
-  display: block;
-}
-
-/* line 202, ../../app/assets/stylesheets/custom.css.scss */
-.timestamp {
-  color: #999999;
-}
-
-/* line 205, ../../app/assets/stylesheets/custom.css.scss */
-.gravatar {
-  float: left;
-  margin-right: 10px;
-}
-
-/* line 210, ../../app/assets/stylesheets/custom.css.scss */
-aside textarea {
-  height: 100px;
-  margin-bottom: 5px;
 }
