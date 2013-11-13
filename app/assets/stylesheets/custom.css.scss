@@ -68,10 +68,11 @@ p {
 	margin-right: 10px;
 	font-size: 1.7em;
 	color: white;
-	text-transform: uppercase;
-	letter-spacing: -1px;
+	/*text-transform: uppercase;*/
+	letter-spacing: 0px;
 	padding-top: 9px;
-	font-weight: bold;
+	/* font-weight: bold; */
+	font-family: Rockwell;
 	line-height: 1;
 	&:hover {
 		color: white;
