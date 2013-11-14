@@ -18,4 +18,8 @@ class StaticPagesController < ApplicationController
 
   def license
   end
+
+  def downloads
+  end
+
 end

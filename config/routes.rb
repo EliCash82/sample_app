@@ -15,7 +15,8 @@ SampleApp::Application.routes.draw do
   match '/signout', to: 'sessions#destroy', via: :delete
   match '/about', to: 'static_pages#about'
   match '/license', to: 'static_pages#license'
-  match '/contact', to: 'static_pages#contact'  
+  match '/contact', to: 'static_pages#contact'
+  match '/downloads', to: 'static_pages#downloads'  
  
   
 
