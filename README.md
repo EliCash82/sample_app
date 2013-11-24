@@ -10,11 +10,11 @@ This is an academic application created in part by/with great thanks to The Ruby
 
 While not traditionally a "humanities" tool, the G.I.R.'s intended audience is asked to share knowledge of prexisting Gentle Introductions or to create their own and share those with the community.
 
-I define (I emphasize myself here, as there must surely be debate as to what a 'Gentle Introduction' objectively is...) Gentle Introductions as longform instruction sessions composed in such a way that readers with varying levels of familiarity can get a solid grasp over a concept that they might have found completely foreign before reading the introduction.
+I define (I emphasize myself here, as there must surely be debate as to what a 'Gentle Introduction' objectively is...) Gentle Introductions as longform instruction sessions composed in such a way that readers with varying levels of familiarity can understand the foundations of a concept that they might have found completely foreign before reading the introduction.  
 
-Gentle Introductions are becoming increasingly important as the number of computational/digital options & techniques scholars in the humanities have is growing exponentially.  Many such scholars are caught off guard when attempting to add a digital layer to their research.  Many DH scholars are unnecessarily frustrated by the varied levels of difficulty and customization promised by digital tools, both commercial and open source.  The intention of The G.I.R. is to lift certain barriers for experienced academics that have limited to no experience with computer science based foundations.
+Gentle Introductions are becoming increasingly important to the Digital Humanities scholar, as the number of computational/digital options & techniques for such an audience are experiencing exponential growth.  Many such scholars are caught off guard when attempting to add increasingly important digital layers to their research.  Many DH scholars are unnecessarily frustrated by the varied levels of difficulty and customization promised by digital tools, languages, and software (both commercial and open source).  The intention of The G.I.R. is to lift certain barriers for experienced humanities academics that have limited to no experience with computer science based foundations.
 
-Eventually there will be a manifesto as to what can be placed in both the G.I.R. datastream and the G.I.R. Blog.  The attempt is to create a more controlled community of credentialled administrators that can make use of a twitter-like web app built on Rails.
+Eventually there will be further documentation as to what can be placed in both the G.I.R. data stream and the G.I.R. Blog.  The attempt is to create a more controlled community of credentialled administrators that can make use of a twitter-like web app built on Rails.
 
 
 
