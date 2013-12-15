@@ -21,7 +21,9 @@
 		<h1>The Gentle Introduction Resource</h1>
 		<h2>The only thing to fear is a bad explanation.</h2>
 
-		<p><%= image_tag("gentle_fred2.png", alt: "Gentle Logo") %></p>
+		<p>
+		<%= image_tag("gentle_fred2.png", alt: "Gentle Logo") %>
+		</p>
 		<!--<p>
 			
 			• Let students crowdsource the research that works for them!<br/>
@@ -31,11 +33,10 @@
 			
 			
 		</p>-->
-		<br/><br/><p><strong><i>The Gentle Introduction Resource is a private online social datastream designed for classrooms.  It allows students to aggregate instructional material that is directly relevent to classroom topics.</i></strong><br/><br/>Want to try it out? <%= link_to "Click here!", '#sign', class: "btn btn-large btn-danger" %></p><br/>
+		<br/>
+		<br/>
 		<p>
-			
-
-		</p>
+			<strong><i>The Gentle Introduction Resource is a private online social datastream designed for classrooms.  It allows students to aggregate instructional material that is directly relevent to classroom topics.</i></strong><br/><br/>Want to try it out? <%= link_to "Click here!", '#sign', class: "btn btn-large btn-danger" %></p><br/>
 		
 		<!--<p align=left><strong>Problem #1: DIGITAL IS DIFFICULT</strong><br/>
 		Some of us are in denial about it, but its true.  Just because we use a computer every day does not mean we are technical wizards.  Even technical wizards have a benchmark they haven't passed.<br/>
@@ -44,56 +45,107 @@
 		<strong>Problem #3: IT'S HARD TO TRANSLATE PHYSICAL SPACE INTO DIGITAL SPACE</strong><br/>
 		Many digital translations of the physical classroom get crowded quickly and attempt to facillitate far too many users in one small space.  When the digital classroom becomes the digital school or university it can be hard to find your way around.-->
 		
-		<p align=left><strong>How about a little more detail?</strong><br/>
-		The web is a great place for research, but it does have its own brand of drawbacks.  Back when one did research in your typical brick-and-mortar library, the problem was a LACK of access to definitive material.  With the constantly evolving internet of today researchers have the opposite problem.  There is what seems like an infinite amount of information about almost any given subject littering the web.  How can we find the research we want?  How do we KNOW it actually is the research we want?  Is there a way classrooms can embark on this search together, constraining the infinite in a way that suits any one classroom appropriately?  The answer is YES!  Thanks to <u> The Gentle Introductions Resource</u> that is!</p><br/>
+		<p align=left>
+			<strong>How about a little more detail?</strong><br/>
+			The web is a great place for research, but it does have its own brand of drawbacks.  Back when one did research in your typical brick-and-mortar library, the problem was a LACK of access to definitive material.  With the constantly evolving internet of today researchers have the opposite problem.  There is what seems like an infinite amount of information about almost any given subject littering the web.  How can we find the research we want?  How do we KNOW it actually is the research we want?  Is there a way classrooms can embark on this search together, constraining the infinite in a way that suits any one classroom appropriately?  The answer is YES!  Thanks to <u> The Gentle Introductions Resource</u> that is!
+		</p>
+		<br/>
 
-		<p align=left><strong>WAIT!  Hold it!  Hold it right there...</strong></p>
-		<p><%= image_tag("gentle_bear.png", alt: "What are Gentle Introductions Exactly?") %></p>
-		<p align=left>A "Gentle Introduction" is not strictly defined, but the moniker is typically used to describe introductions to difficult material simplified to a point in which researchers new to a given subject might be able to understand core conceptual features.  Still confused?  Here are a few Gentle Introductions our alpha users have submitted:<br/>
-		• &nbsp;&nbsp;&nbsp;<a href="http://chronicle.com/blogs/profhacker/a-gentle-introduction-to-version-control">A Gentle Introduction to Version Control</a><br/>
-		• &nbsp;&nbsp;&nbsp;<a href="http://dh.obdurodon.org/what-is-xml.xhtml">An Even Gentler Introduction to XML</a><br/>
-		• &nbsp;&nbsp;&nbsp;<a href="http://guides.lib.unc.edu/photoshop">An Introduction to Photoshop</a><br/>
-		• &nbsp;&nbsp;&nbsp;<a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/">A Gentle Introduction to Programming Using Python</a><br/></p><br/>
+		<p align=left>
+			<strong>WAIT!  Hold it!  Hold it right there...</strong>
+		</p>
+
+		<p>
+			<%= image_tag("gentle_bear.png", alt: "What are Gentle Introductions Exactly?") %>
+		</p>
+		
+		<p align=left>
+			A "Gentle Introduction" is not strictly defined, but the moniker is typically used to describe introductions to difficult material simplified to a point in which researchers new to a given subject might be able to understand core conceptual features.  Still confused?  Here are a few Gentle Introductions our alpha users have submitted:<br/>
+			• &nbsp;&nbsp;&nbsp;<a href="http://chronicle.com/blogs/profhacker/a-gentle-introduction-to-version-control">A Gentle Introduction to Version Control</a><br/>
+			• &nbsp;&nbsp;&nbsp;<a href="http://dh.obdurodon.org/what-is-xml.xhtml">An Even Gentler Introduction to XML</a><br/>
+			• &nbsp;&nbsp;&nbsp;<a href="http://guides.lib.unc.edu/photoshop">An Introduction to Photoshop</a><br/>
+			• &nbsp;&nbsp;&nbsp;<a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/">A Gentle Introduction to Programming Using Python</a><br/></p><br/>
+		
 		<!--<p><br/>The Gentle Introduction Resource is a proof-of-concept for a Digital Humanities based resource foundationally interested in giving instructors a tool allowing students to crowdsource materials on any subject, concept, or theme.  The "Gentle Introductions" moniker was chosen for this prototype because this title illustrates a specific need in the growing field of Digital Humanities research.</p>-->
 		<!--<br /><br /><p>The G.I.R. is a Rails based web app that hopes to collect a specific collection of crowdsourced academic resources.  This app is maintained by <a href="http://www.twitter.com/Anderson_Evans">Anderson Evans</a> as the core of his thesis for the MALS degree in Digital Humanities at <a href="https://www.gc.cuny.edu/Page-Elements/Academics-Research-Centers-Initiatives/Masters-Programs/Liberal-Studies/Program-tracks/Digital-Humanities">CUNY Graduate Center</a>.</p>-->
-		<p align=left><strong>How can you use The Gentle Introduction Resource in your class?</strong><br/>
-		<i><u>Here is a story to illustrate how this web app can be utilized in a classroom setting:</i></u><br/>
-		Jack is a student seeking a Masters Degree in History at Everyman's University.  Jack comes from a traditional Humanities background, but is taking a course in Digital Humanities.  He hopes to learn how he can inject digital, computational, and web based components into his research.  Jack has owned a computer all of his life, so he figured it shouldn't be too hard for him.  At first it wasn't, but about halfway into the semester his homework began to seem a little overly challenging...<br/></p>
-		<%= image_tag("comic_one_four.png", alt: "Comic Strip") %>
+		
+		<p align=left>
+			<strong>How can you use The Gentle Introduction Resource in your class?</strong><br/>
+			<i><u>Here is a story to illustrate how this web app can be utilized in a classroom setting:</i></u><br/>
+			Jack is a student seeking a Masters Degree in History at Everyman's University.  Jack comes from a traditional Humanities background, but is taking a course in Digital Humanities.  He hopes to learn how he can inject digital, computational, and web based components into his research.  Jack has owned a computer all of his life, so he figured it shouldn't be too hard for him.  At first it wasn't, but about halfway into the semester his homework began to seem a little overly challenging...<br/></p>
+		<p>
+				<%= image_tag("comic_one_four.png", alt: "Comic Strip") %>
+		</p>
+
 		<p align=left> 
 			Judy is in the same class Jack is in.  Unlike Jack, she minored in Computer Science during her years as an undergrad.  Not only that, but she actually used XML syntax to markup a Shakespeare play for her undergraduate thesis.  She was in Jack's position for quite a while back then (fearful, utterly confused) until she found a paper by a Professor at CBSU (Comic Book State University) that was far more clear and much less dense than most of the material she'd seen...
 		</p>
-		<%= image_tag("comic_two_two.png", alt: "Comic Strip") %>
+		
+		<p>
+			<%= image_tag("comic_two_two.png", alt: "Comic Strip") %>
 		</p>
+
 		<p align=left>
 			Judy logs into the classes private Gentle Introduction Resource.  It looks very similar to some of her favorite social networks and news feeds, except only members of her class are allowed membership.  Several other people had posted some XML resources, but Judy is sure they can't possibly be as helpful as hers!
 		</p>
+		
 		<p>
-		<%= image_tag("comic_three.png", alt: "Comic Strip") %>
+			<%= image_tag("comic_three.png", alt: "Comic Strip") %>
 		</p>
+		
 		<p align=left>
-		And Jack wasn't the only student in class that benefitted from Judy's submission to the Gentle Introduction Resource.  Several other students also felt that the complicated homework material became far more clear after reading the Gentle Introduction suggested by Judy.
+			And Jack wasn't the only student in class that benefitted from Judy's submission to the Gentle Introduction Resource.  Several other students also felt that the complicated homework material became far more clear after reading the Gentle Introduction suggested by Judy.
 		</p>
+		
 		<!--<p align=left>
 		The next day in class Jack, Judy, and the rest of their peers
 		</p>-->
-		<a id="sign"></a><p> ------------------------------ </p>
-
-		<p>The Gentle Introduction resource is still in its alpha stages, but has more innovations coming if support is found.  See the <a href="#">FAQ</a> section for a list of additions that are currently under construction.<br/><br/></p>
-
-		<p align=center><%= link_to image_tag("arrow.png", alt: "Arrow") %><%= link_to "Sign up now!", signup_path, class: "btn btn-large btn-danger" %> <%= link_to "Sign in", signin_path, class: "btn btn-large btn-danger" %></p>
-		<br/>
-		<p align=center><%= link_to image_tag("octocat.png", alt: "Github Mascot") %><%= link_to "Download repo", 'https://github.com/EliCash82/sample_app', class: "btn btn-large btn-danger" %> </p>
-		<br/><br/><p align=left>
-		<strong>Want to help the project reach the next phase of development?  Please donate Bitcoin!</strong><br/>Every little BTC helps!<br/></p>
-		<p align=center><%= link_to image_tag("bitcoin_logo.png", alt: "Donate BTC") %><%= link_to image_tag("donate.png", alt: "Donate BTC") %>
+		
+		<p>
+			<a id="sign"></a> ------------------------------ 
 		</p>
-		<br/><br/><br/>
-	<p align=left>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<%= link_to image_tag("rails.png", alt: "Rails"), 'http://rubyonrails.org/' %> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This site was designed with <strong>Ruby on Rails</strong>. </p>
-	<p align=left>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<%= link_to image_tag("heroku_logo.png", alt: "Heroku"), 'http://heroku.com/' %> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This site is hosted on the live web using the PaaS <strong>Heroku</strong></p>
-	<p align=left>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<%= link_to image_tag("github_logo2.png", alt: "Github"), 'http://github.com/' %> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Full code hosted and accessible on <strong>GitHub</strong></p>
-	<p align=left>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<%= link_to image_tag("postgresql_logo.png", alt: "PostgreSQL"), 'http://www.postgresql.org/' %>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>PostgreSQL</strong> is the app's underlying database.</p>
-	<p align=left>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<%= link_to image_tag("cuny_logo2.jpg", alt: "CUNY"), 'http://commons.gc.cuny.edu/' %>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This site is the foundation for Anderson Evans' MALS thesis at <strong>CUNY Graduate Center</strong>.</p>
+
+		<p>
+			The Gentle Introduction resource is still in its alpha stages, but has more innovations coming if support is found.  See the <a href="#">FAQ</a> section for a list of additions that are currently under construction.
+		<br/>
+		<br/>
+		</p>
+
+		<p align=center>
+			<%= link_to image_tag("arrow.png", alt: "Arrow") %><%= link_to "Sign up now!", signup_path, class: "btn btn-large btn-danger" %> <%= link_to "Sign in", signin_path, class: "btn btn-large btn-danger" %>
+		</p>
+		<br/>
+		
+		<p align=center>
+			<%= link_to image_tag("octocat.png", alt: "Github Mascot") %><%= link_to "Download repo", 'https://github.com/EliCash82/sample_app', class: "btn btn-large btn-danger" %> </p>
+		<br/>
+		<br/>
+		<p align=left>
+			<strong>Want to help the project reach the next phase of development?  Please donate Bitcoin!</strong><br/>Every little BTC helps!
+		<br/>
+		</p>
+		
+		<p align=center>
+			<%= link_to image_tag("bitcoin_logo.png", alt: "Donate BTC") %><%= link_to image_tag("donate.png", alt: "Donate BTC") %>
+		</p>
+		<br/>
+		<br/>
+		<br/>
+		<p align=left>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<%= link_to image_tag("rails.png", alt: "Rails"), 'http://rubyonrails.org/' %> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This site was designed with <strong>Ruby on Rails</strong>.
+		</p>
+		<p align=left>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<%= link_to image_tag("heroku_logo.png", alt: "Heroku"), 'http://heroku.com/' %> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This site is hosted on the live web using the PaaS <strong>Heroku</strong>
+		</p>
+		<p align=left>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<%= link_to image_tag("github_logo2.png", alt: "Github"), 'http://github.com/' %> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Full code hosted and accessible on <strong>GitHub</strong>
+		</p>
+		<p align=left>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<%= link_to image_tag("postgresql_logo.png", alt: "PostgreSQL"), 'http://www.postgresql.org/' %>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>PostgreSQL</strong> is the app's underlying database.
+		</p>
+		<p align=left>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<%= link_to image_tag("cuny_logo2.jpg", alt: "CUNY"), 'http://commons.gc.cuny.edu/' %>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This site is the foundation for Anderson Evans' MALS thesis at <strong>CUNY Graduate Center</strong>.
+		</p>
 	</div>
 	
 	
