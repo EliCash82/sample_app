@@ -20,6 +20,7 @@
 	<div class="center hero-unit">
 		<h1>The Gentle Introduction Resource</h1>
 		<h2>The only thing to fear is a bad explanation.</h2>
+
 		<p><%= image_tag("gentle_fred2.png", alt: "Gentle Logo") %></p>
 		<!--<p>
 			
@@ -30,9 +31,21 @@
 			
 			
 		</p>-->
+		<br/><br/><p><strong><i>The Gentle Introduction Resource is a private online social datastream designed for classrooms.  It allows students to aggregate instructional material that is directly relevent to classroom topics.</i></strong><br/><br/>Want to try it out? <%= link_to "Click here!", '#sign', class: "btn btn-large btn-danger" %></p><br/>
+		<p>
+			
 
+		</p>
 		
-		<p align=left>The web is a great place for research, but it does have its own brand of drawbacks.  Back when one did research in your typical brick-and-mortar library, the problem was a LACK of access to definitive material.  With the constantly evolving internet of today researchers have the opposite problem.  There is what seems like an infinite amount of information about almost any given subject littering the web.  How can we find the research we want?  How do we KNOW it actually is the research we want?  Is there a way classrooms can embark on this search together, constraining the infinite in a way that suits any one classroom appropriately?  The answer is YES!  Thanks to <u> The Gentle Introductions Resource</u> that is!</p>
+		<!--<p align=left><strong>Problem #1: DIGITAL IS DIFFICULT</strong><br/>
+		Some of us are in denial about it, but its true.  Just because we use a computer every day does not mean we are technical wizards.  Even technical wizards have a benchmark they haven't passed.<br/>
+		<strong>Problem #2: THE FIELD IS INFINITE</strong><br/>
+		Search engines and social networks both pose a similar problem: When there is no constraint students and researchers get lost in the massive onslaught of content, voices, and hyperlinks.<br/>
+		<strong>Problem #3: IT'S HARD TO TRANSLATE PHYSICAL SPACE INTO DIGITAL SPACE</strong><br/>
+		Many digital translations of the physical classroom get crowded quickly and attempt to facillitate far too many users in one small space.  When the digital classroom becomes the digital school or university it can be hard to find your way around.-->
+		
+		<p align=left><strong>How about a little more detail?</strong><br/>
+		The web is a great place for research, but it does have its own brand of drawbacks.  Back when one did research in your typical brick-and-mortar library, the problem was a LACK of access to definitive material.  With the constantly evolving internet of today researchers have the opposite problem.  There is what seems like an infinite amount of information about almost any given subject littering the web.  How can we find the research we want?  How do we KNOW it actually is the research we want?  Is there a way classrooms can embark on this search together, constraining the infinite in a way that suits any one classroom appropriately?  The answer is YES!  Thanks to <u> The Gentle Introductions Resource</u> that is!</p><br/>
 
 		<p align=left><strong>WAIT!  Hold it!  Hold it right there...</strong></p>
 		<p><%= image_tag("gentle_bear.png", alt: "What are Gentle Introductions Exactly?") %></p>
@@ -40,7 +53,7 @@
 		• &nbsp;&nbsp;&nbsp;<a href="http://chronicle.com/blogs/profhacker/a-gentle-introduction-to-version-control">A Gentle Introduction to Version Control</a><br/>
 		• &nbsp;&nbsp;&nbsp;<a href="http://dh.obdurodon.org/what-is-xml.xhtml">An Even Gentler Introduction to XML</a><br/>
 		• &nbsp;&nbsp;&nbsp;<a href="http://guides.lib.unc.edu/photoshop">An Introduction to Photoshop</a><br/>
-		• &nbsp;&nbsp;&nbsp;<a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/">A Gentle Introduction to Programming Using Python</a><br/></p>
+		• &nbsp;&nbsp;&nbsp;<a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/">A Gentle Introduction to Programming Using Python</a><br/></p><br/>
 		<!--<p><br/>The Gentle Introduction Resource is a proof-of-concept for a Digital Humanities based resource foundationally interested in giving instructors a tool allowing students to crowdsource materials on any subject, concept, or theme.  The "Gentle Introductions" moniker was chosen for this prototype because this title illustrates a specific need in the growing field of Digital Humanities research.</p>-->
 		<!--<br /><br /><p>The G.I.R. is a Rails based web app that hopes to collect a specific collection of crowdsourced academic resources.  This app is maintained by <a href="http://www.twitter.com/Anderson_Evans">Anderson Evans</a> as the core of his thesis for the MALS degree in Digital Humanities at <a href="https://www.gc.cuny.edu/Page-Elements/Academics-Research-Centers-Initiatives/Masters-Programs/Liberal-Studies/Program-tracks/Digital-Humanities">CUNY Graduate Center</a>.</p>-->
 		<p align=left><strong>How can you use The Gentle Introduction Resource in your class?</strong><br/>
@@ -61,11 +74,20 @@
 		<p align=left>
 		And Jack wasn't the only student in class that benefitted from Judy's submission to the Gentle Introduction Resource.  Several other students also felt that the complicated homework material became far more clear after reading the Gentle Introduction suggested by Judy.
 		</p>
-		<p> ------------------------------ </p>
+		<!--<p align=left>
+		The next day in class Jack, Judy, and the rest of their peers
+		</p>-->
+		<a id="sign"></a><p> ------------------------------ </p>
 
 		<p>The Gentle Introduction resource is still in its alpha stages, but has more innovations coming if support is found.  See the <a href="#">FAQ</a> section for a list of additions that are currently under construction.<br/><br/></p>
 
 		<p align=center><%= link_to image_tag("arrow.png", alt: "Arrow") %><%= link_to "Sign up now!", signup_path, class: "btn btn-large btn-danger" %> <%= link_to "Sign in", signin_path, class: "btn btn-large btn-danger" %></p>
+		<br/>
+		<p align=center><%= link_to image_tag("octocat.png", alt: "Github Mascot") %><%= link_to "Download repo", 'https://github.com/EliCash82/sample_app', class: "btn btn-large btn-danger" %> </p>
+		<br/><br/><p align=left>
+		<strong>Want to help the project reach the next phase of development?  Please donate Bitcoin!</strong><br/>Every little BTC helps!<br/></p>
+		<p align=center><%= link_to image_tag("bitcoin_logo.png", alt: "Donate BTC") %><%= link_to image_tag("donate.png", alt: "Donate BTC") %>
+		</p>
 		
 	</div>
 	<br/>
