@@ -1,5 +1,6 @@
 ---
 arrow.png: arrow-8ae82a3f3bf6410210968bbee7d76806.png
+bitcoin_logo.png: bitcoin_logo-3234254f088b41add4c212acb3fab160.png
 comic_four.png: comic_four-4c874c535f8f7927d4aeb8f8ce1cfaae.png
 comic_one.png: comic_one-b80ce35dc3670a6d58622f6df0fac750.png
 comic_one_four.png: comic_one_four-3e9bbca7209a2dff9991a1200fdf7e6a.png
@@ -10,6 +11,7 @@ comic_two.png: comic_two-a3e8b3c848f8ec44f4e4278eba248b35.png
 comic_two_two.png: comic_two_two-08720d86bd6828ca7cad793a57fc68a4.png
 cuny_logo.png: cuny_logo-03b72d1e0770e5eb89152e0a8d2ff76d.png
 cuny_logo2.jpg: cuny_logo2-3624795bd8de552fe8bc4ff1f9ccfc92.jpg
+donate.png: donate-2b9e99cb2c1ab377314b6569beb5dd28.png
 gentle_bear.png: gentle_bear-c11ea49a1b385b62326665a850786ecb.png
 gentle_fred.png: gentle_fred-8180b1b19905abe2e2f624b3c89958cc.png
 gentle_fred2.png: gentle_fred2-e76aefb5a0815d0e4ae8475045a2c8a2.png
@@ -17,6 +19,7 @@ gir_ruby.png: gir_ruby-9261795acc7580e95d51c865121e5824.png
 github_logo.png: github_logo-7bd9c51ad441367f5a2d46d77faf5700.png
 github_logo2.png: github_logo2-0466369a1e9cb86ab9ecd046380dfc32.png
 heroku_logo.png: heroku_logo-3039ef0ca7da6db72623c92ecce384a3.png
+octocat.png: octocat-274a4fb75b378f1411fbf89c320f675b.png
 postgresql_logo.png: postgresql_logo-0f010cffe201c15bccd36e1c2af5752d.png
 rails.png: rails-be8732dac73d845ac5b142c8fb5f9fb0.png
 rails_note.png: rails_note-bcf95086226b8c33ca0d60dcf9549c87.png
